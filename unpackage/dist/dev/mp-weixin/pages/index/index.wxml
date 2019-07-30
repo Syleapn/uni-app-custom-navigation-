@@ -1,0 +1,1 @@
+<view bind:__l="__l"><bar nav="{{setNav}}"></bar><view style="height:3000rpx;background-color:pink;">正文区域</view></view>

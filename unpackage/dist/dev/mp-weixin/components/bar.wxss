@@ -1,0 +1,32 @@
+
+.header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	left:0;
+}
+.header .header-title {
+	position: absolute;
+	left: 50%;
+	font-size: 38rpx;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.header-back{
+	position: absolute;
+	left:15rpx;
+	font-size:30rpx;
+	padding: 10rpx;
+	border-radius: 50%;
+}
+
